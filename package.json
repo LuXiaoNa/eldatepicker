@@ -1,0 +1,50 @@
+{
+    "name": "eldatepicker",
+    "version": "0.1.1",
+    "main": "packages/eldatepicker/index.js",
+    "private": false,
+    "author": "lxj",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "lib": "vue-cli-service build --target lib --name eldatepicker --dest lib packages/eldatepicker/index.js"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "4.4.0",
+        "@vue/cli-plugin-eslint": "4.4.0",
+        "@vue/cli-service": "4.4.0",
+        "axios": "0.19.2",
+        "babel-eslint": "10.1.0",
+        "element-ui": "2.13.3",
+        "eslint": "6.7.2",
+        "eslint-plugin-vue": "6.2.2",
+        "vue-template-compiler": "2.6.11"
+    },
+    "dependencies": {
+        "core-js": "3.6.5",
+        "les-front-utils": "^1.1.0",
+        "vue": "2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {
+            "no-unused-vars": "off"
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
